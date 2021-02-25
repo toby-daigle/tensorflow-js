@@ -1,0 +1,11 @@
+# IDE
+.idea/
+
+# build
+dist/
+
+# packages
+node_modules/
+
+# tmp files
+yarn-error.log

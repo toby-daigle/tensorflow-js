@@ -1,0 +1,22 @@
+{
+  "name": "tensorflow-js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.6.0",
+    "@tensorflow/tfjs-vis": "^1.4.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "csv-loader": "^3.0.3",
+    "source-map-loader": "^1.1.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
